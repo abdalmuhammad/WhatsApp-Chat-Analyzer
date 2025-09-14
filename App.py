@@ -14,7 +14,7 @@ if uploader_file is not None:
     user_list.insert(0, "All Users")
     selected_users = st.sidebar.selectbox("Select User", user_list)
 
-    if st.sidebar.button("Show Analysis"):
+    if st.sidebar.button("Show Analysis"):str
 
         # helper.fetch_stats returns: (num_messages, num_words, num_media_messages)
         num_messages, num_words, num_media_messages, num_links = helper.fetch_stats(selected_users, df)

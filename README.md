@@ -1,0 +1,1 @@
+![App Demo](WhatsAppChatAnalyzer-ezgif.com-speed.gif)
